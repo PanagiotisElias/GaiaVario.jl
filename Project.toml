@@ -1,0 +1,21 @@
+name = "GaiaVario"
+uuid = "2f6b9c4e-7d1a-4e8b-9a3c-5e0f1d2b3c4a"
+version = "0.1.0"
+authors = ["Panagiotis Elias <pelias@upatras.gr>"]
+
+[deps]
+GaiaSeisEngineAPI = "5d3c7e2a-9b41-4f6e-8c1d-2a7e4b9f0c13"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-fdb0-5b16-85bb-f4a2f4b0f72b"
+
+[targets]
+test = ["Test"]
+
+[sources]
+GaiaSeisEngineAPI = {path = "../GaiaSeis/GaiaSeisEngineAPI"}

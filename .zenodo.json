@@ -1,0 +1,30 @@
+{
+  "title": "GaiaVario.jl: variometric GNSS displacement engine for GaiaSeis",
+  "upload_type": "software",
+  "description": "<p>GaiaVario is a variometric GNSS displacement engine written in Julia: for every satellite seen at two consecutive epochs it differences the carrier phase minus the modelled terms (broadcast orbit and clock, Sagnac, troposphere, solid Earth tide, phase wind-up) and solves the station displacement over the pair by weighted least squares with per-satellite rejection. It is the default engine plug-in of the GaiaSeis platform (interface GaiaSeisEngineAPI).</p><p>This work is part of the <a href=\"https://www.transform2-project.eu/\">TRANSFORM²</a> project which aims to improve physical and digital infrastructure across Near-Fault Observatories (NFOs) in Europe. TRANSFORM² is funded by the European Union under project number 101188365 within the HORIZON-INFRA-2024-DEV-01-01 call.</p>",
+  "creators": [
+    {
+      "name": "Elias, Panagiotis",
+      "affiliation": "Deforming Gaia Lab, Department of Geology, University of Patras, Greece",
+      "orcid": "0000-0002-8650-0895"
+    }
+  ],
+  "license": "AGPL-3.0-only",
+  "access_right": "open",
+  "keywords": ["GNSS", "variometric approach", "seismogeodesy", "real-time", "displacement", "Julia"],
+  "communities": [
+    {"identifier": "transform2-project"}
+  ],
+  "grants": [
+    {"id": "10.13039/501100000780::101188365"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/PanagiotisElias/GaiaSeis",
+      "relation": "isRequiredBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng"
+}

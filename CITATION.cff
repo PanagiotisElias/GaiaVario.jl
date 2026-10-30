@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use GaiaVario, please cite it as below (together with the GaiaSeis platform when used through it)."
+type: software
+title: "GaiaVario.jl: variometric GNSS displacement engine for GaiaSeis"
+version: 0.1.0
+date-released: 2026-10-30
+license: AGPL-3.0-only
+repository-code: "https://github.com/PanagiotisElias/GaiaVario.jl"
+url: "https://github.com/PanagiotisElias/GaiaVario.jl"
+# doi: 10.5281/zenodo.XXXXXXX   (filled in after the first Zenodo archive)
+authors:
+  - family-names: Elias
+    given-names: Panagiotis
+    email: pelias@upatras.gr
+    affiliation: "Deforming Gaia Lab, Department of Geology, University of Patras, Greece"
+    orcid: "https://orcid.org/0000-0002-8650-0895"
+keywords:
+  - GNSS
+  - variometric approach
+  - seismogeodesy
+  - real-time
+  - displacement
+  - Julia
+abstract: >-
+  GaiaVario is a variometric GNSS displacement engine: for every satellite
+  seen at two consecutive epochs it differences the carrier phase minus the
+  modelled terms (broadcast orbit and clock, Sagnac, troposphere, solid Earth
+  tide, phase wind-up) and solves the station displacement over the pair by
+  weighted least squares with per-satellite rejection. It is the default
+  engine plug-in of the GaiaSeis platform (interface GaiaSeisEngineAPI).
+  Developed within the TRANSFORM² project (European Union, project number
+  101188365).
+references:
+  - type: software
+    title: "GaiaSeis: GNSS-based real-time seismogeodesy platform"
+    authors:
+      - family-names: Elias
+        given-names: Panagiotis
+    repository-code: "https://github.com/PanagiotisElias/GaiaSeis"
+    license: AGPL-3.0-only
