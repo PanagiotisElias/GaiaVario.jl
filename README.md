@@ -1,5 +1,7 @@
 # GaiaVario.jl
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23810265.svg)](https://doi.org/10.5281/zenodo.23810265)
+
 A variometric GNSS displacement engine for real-time seismogeodesy, written
 as the default engine plug-in of the
 [GaiaSeis](https://github.com/PanagiotisElias/GaiaSeis) platform. Version
@@ -132,7 +134,7 @@ tools/             replay and comparison tools (recorded streams, RINEX/Zenodo r
 
 ## Citing
 
-See `CITATION.cff`; a Zenodo DOI is added after the first archived release.
+See `CITATION.cff`. Zenodo DOI [10.5281/zenodo.23810265](https://doi.org/10.5281/zenodo.23810265) (all versions; this release: [10.5281/zenodo.23810266](https://doi.org/10.5281/zenodo.23810266)).
 
 ## Licence
 
